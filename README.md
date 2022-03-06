@@ -1,1 +1,1 @@
-# contrarian-microprofile-sample
+# 逆張りのMicroProfileのサンプルリポジトリ
