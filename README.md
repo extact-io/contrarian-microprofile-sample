@@ -7,16 +7,4 @@
 | [第2回 MicroProfileってなにそれ？ - MicroProfileの仕様と実装](https://developer.mamezou-tech.com/msa/mp/cntrn02-what-mp/) | なし |
 |[第3回 使った、作った、Helidonで！ - サンプルアプリの紹介](https://developer.mamezou-tech.com/msa/mp/cntrn03-sampleapp-helidon/)|[こちら](https://github.com/extact-io/rms)|
 |[第4回 使って分かった！お勧めMicroProfile仕様厳選3選](https://developer.mamezou-tech.com/msa/mp/cntrn04-spec-ranking/)|なし|
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 |[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](03-openapi/)|
-=======
-|[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](03-openapi/)|
->>>>>>> e3a7aa1... add 03-openapi contentes
-=======
-|[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](..)|
->>>>>>> aa0c1be... add 03-openapi contentes
-=======
-|[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](03-openapi/)|
->>>>>>> dbf6038... update

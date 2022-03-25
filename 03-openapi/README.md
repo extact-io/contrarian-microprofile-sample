@@ -12,15 +12,7 @@
 - `01_before`の例
 ```shell
 # Clone this repository
-<<<<<<< HEAD
-<<<<<<< HEAD
 git clone https://github.com/extact-io/contrarian-microprofile-sample.git
-=======
-git clone https://github.com/extact-io/xxx.git
->>>>>>> aa0c1be... add 03-openapi contentes
-=======
-git clone https://github.com/extact-io/contrarian-microprofile-sample.git
->>>>>>> 3833815... update
 # Go into the sample
 cd 03-openapi/before
 # build application
