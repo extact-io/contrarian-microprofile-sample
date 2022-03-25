@@ -2,11 +2,13 @@ package io.extact.mp.sample.openapi;
 
 import java.util.Set;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 import io.extact.mp.sample.openapi.resource.PersonResourceImpl;
 
+@ApplicationScoped
 @ApplicationPath("api")
 public class PersonApplication extends Application {
     @Override
