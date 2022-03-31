@@ -8,4 +8,5 @@
 |[第3回 使った、作った、Helidonで！ - サンプルアプリの紹介](https://developer.mamezou-tech.com/msa/mp/cntrn03-sampleapp-helidon/)|[こちら](https://github.com/extact-io/rms)|
 |[第4回 使って分かった！お勧めMicroProfile仕様厳選3選](https://developer.mamezou-tech.com/msa/mp/cntrn04-spec-ranking/)|なし|
 |[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](03-openapi/)|
+|[第6回 お手軽便利MicroProfile Config](https://developer.mamezou-tech.com/msa/mp/cntrn06-mp-config/)|[こちら](02-config/)|
 |[(番外編) SLF4J＋LogbackへのLogger切り替え](https://developer.mamezou-tech.com/msa/mp/ext01-helidon-logback/)|[こちら](ex-helidon-logback/)|
