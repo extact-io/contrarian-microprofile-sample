@@ -1,0 +1,19 @@
+# for ConfigAbstraction
+#config_ordinal: 50
+#person:
+#  name: tech
+#  age: 1
+#  address: virtual
+
+# for ConfigMerge
+employee:
+  name: soramame
+  dept: BS
+  rank: senior
+
+# for AdvancedExample
+sample.server:
+  protocol: http
+  host: localhost
+  port: 7001
+
