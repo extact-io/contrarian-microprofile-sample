@@ -8,6 +8,7 @@ import javax.inject.Inject;
 
 import org.eclipse.microprofile.config.Config;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.helidon.microprofile.config.ConfigCdiExtension;
 import io.helidon.microprofile.tests.junit5.AddBean;
@@ -25,6 +26,7 @@ import io.extact.mp.sample.testing.PersonServiceStubWithConfigTest.PersonReposit
 @AddExtension(ConfigCdiExtension.class)
 @AddConfig(key = "test.name", value = "config-person")
 @AddConfig(key = "test.age", value = "10")
+@ExtendWith(JulToSLF4DelegateExtension.class)
 public class PersonServiceStubWithConfigTest {
 
     @Inject

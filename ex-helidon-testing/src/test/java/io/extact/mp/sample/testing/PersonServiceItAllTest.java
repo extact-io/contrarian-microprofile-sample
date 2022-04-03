@@ -9,11 +9,13 @@ import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.helidon.microprofile.tests.junit5.HelidonTest;
 
 @HelidonTest(resetPerTest = true)
 @TestMethodOrder(OrderAnnotation.class)
+@ExtendWith(JulToSLF4DelegateExtension.class)
 public class PersonServiceItAllTest {
 
     //@Inject

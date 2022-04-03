@@ -10,3 +10,4 @@
 |[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](03-openapi/)|
 |[第6回 お手軽便利MicroProfile Config](https://developer.mamezou-tech.com/msa/mp/cntrn06-mp-config/)|[こちら](02-config/)|
 |[(番外編) SLF4J＋LogbackへのLogger切り替え](https://developer.mamezou-tech.com/msa/mp/ext01-helidon-logback/)|[こちら](ex-helidon-logback/)|
+|[(番外編) Helidon MP Testing with JUnit5を使ってみる](https://developer.mamezou-tech.com/msa/mp/ext02-helidon-testing/)|[こちら](ex-helidon-testing/)|

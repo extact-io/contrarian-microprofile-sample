@@ -28,6 +28,20 @@
 
     <!-- for Testing libs -->
     <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jul-to-slf4j</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+    </dependency>
+
+    <!-- for Testing libs -->
+    <dependency>
       <groupId>io.helidon.microprofile.tests</groupId>
       <artifactId>helidon-microprofile-tests-junit5</artifactId>
       <scope>test</scope>

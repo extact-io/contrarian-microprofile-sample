@@ -7,6 +7,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import io.helidon.microprofile.tests.junit5.AddBean;
 import io.helidon.microprofile.tests.junit5.DisableDiscovery;
@@ -18,6 +19,7 @@ import io.extact.mp.sample.testing.PersonServiceStubTest.PersonRepositoryStub;
 @DisableDiscovery
 @AddBean(PersonService.class)
 @AddBean(PersonRepositoryStub.class)
+@ExtendWith(JulToSLF4DelegateExtension.class)
 public class PersonServiceStubTest {
 
     @Inject
