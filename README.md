@@ -9,5 +9,6 @@
 |[第4回 使って分かった！お勧めMicroProfile仕様厳選3選](https://developer.mamezou-tech.com/msa/mp/cntrn04-spec-ranking/)|なし|
 |[第5回 コードが仕様の源泉MicroProfile OpenAPI](https://developer.mamezou-tech.com/msa/mp/cntrn05-mp-openapi/)|[こちら](03-openapi/)|
 |[第6回 お手軽便利MicroProfile Config](https://developer.mamezou-tech.com/msa/mp/cntrn06-mp-config/)|[こちら](02-config/)|
+|[第7回 らくらくMicroProfile RestClient](https://developer.mamezou-tech.com/msa/mp/cntrn06-mp-config/)|[こちら](01-restclient/)|
 |[(番外編) SLF4J＋LogbackへのLogger切り替え](https://developer.mamezou-tech.com/msa/mp/ext01-helidon-logback/)|[こちら](ex-helidon-logback/)|
 |[(番外編) Helidon MP Testing with JUnit5を使ってみる](https://developer.mamezou-tech.com/msa/mp/ext02-helidon-testing/)|[こちら](ex-helidon-testing/)|
