@@ -20,11 +20,11 @@ import io.helidon.microprofile.tests.junit5.HelidonTest;
 @ExtendWith(JulToSLF4DelegateExtension.class)
 public class PersonResourceTest {
 
-    private PersonResource personRestClient;
+    private PersonResource personResource;
 
     @BeforeEach
     public void setup() throws Exception {
-        personRestClient = RestClientBuilder.newBuilder()
+        personResource = RestClientBuilder.newBuilder()
                 .baseUri(new URI("http://localhost:7001/api/persons"))
                 .build(PersonResource.class);
     }
@@ -32,14 +32,14 @@ public class PersonResourceTest {
     @Test
     void tesGetPerson() {
         var expected = new Person(1L, "taro", 12);
-        var actual = personRestClient.get(1L);
+        var actual = personResource.get(1L);
         assertEquals(expected, actual);
     }
 
     @Test
     void testGetPersonOnNotFound() {
         var exception = assertThrows(WebApplicationException.class, () -> {
-            personRestClient.get(99L);
+            personResource.get(99L);
         });
         assertEquals(Status.NOT_FOUND.getStatusCode(), exception.getResponse().getStatus());
     }
@@ -47,27 +47,27 @@ public class PersonResourceTest {
     @Test
     void tesAddPerson() {
         var newPerson = new Person(null, "add-person", 32);
-        var addedPerson = personRestClient.add(newPerson);
+        var addedPerson = personResource.add(newPerson);
         assertNotNull(addedPerson.getId());
     }
 
     @Test
     void testAddPersonOnDuplicated() {
         var exception = assertThrows(WebApplicationException.class, () -> {
-            personRestClient.add(new Person(null, "hanko", 50));
+            personResource.add(new Person(null, "hanko", 50));
         });
         assertEquals(Status.CONFLICT.getStatusCode(), exception.getResponse().getStatus());
     }
 
     @Test
     void tesFindPerson() {
-        var actual = personRestClient.findByName("bo");
+        var actual = personResource.findByName("bo");
         assertEquals(1, actual.size());
     }
 
     @Test
     void testFindPersonOnNotFound() {
-        var actual = personRestClient.findByName("xx");
+        var actual = personResource.findByName("xx");
         assertEquals(0, actual.size());
     }
 }
