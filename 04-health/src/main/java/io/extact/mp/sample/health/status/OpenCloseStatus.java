@@ -1,11 +1,11 @@
 package io.extact.mp.sample.health.status;
 
-import static io.extact.mp.sample.health.status.AppStatus.Status.*;
+import static io.extact.mp.sample.health.status.OpenCloseStatus.Status.*;
 
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
-public class AppStatus {
+public class OpenCloseStatus {
 
     private Status currentStatus = CLOSE;
 

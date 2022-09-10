@@ -1,6 +1,6 @@
 package io.extact.mp.sample.health.webapi;
 
-import io.extact.mp.sample.health.status.AppStatus;
+import io.extact.mp.sample.health.status.OpenCloseStatus;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
@@ -8,12 +8,12 @@ import jakarta.ws.rs.Path;
 
 @ApplicationScoped
 @Path("/status")
-public class AppStatusResource {
+public class OpenCloseStatusResource {
 
-    private AppStatus status;
+    private OpenCloseStatus status;
 
     @Inject
-    public AppStatusResource(AppStatus status) {
+    public OpenCloseStatusResource(OpenCloseStatus status) {
         this.status = status;
     }
 
