@@ -31,4 +31,4 @@ META-INFに配置するpropertiesファイルを切り替える必要がある�
 mvn -Poption clean package
 ```
 
-実行方法はすべて他と同じです。
+実行方法はすべて他と同じです
