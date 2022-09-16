@@ -1,4 +1,4 @@
-javax.sql.DataSource:
+jakarta.sql.DataSource:
   sampleDataSource:
     dataSourceClassName: org.h2.jdbcx.JdbcDataSource
     dataSource:

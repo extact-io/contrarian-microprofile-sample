@@ -1,0 +1,7 @@
+components:
+  schemas:
+    LocalDate:
+      description: app date format(yaml)
+      example: '20220904'
+      format: yyyyMMdd
+      type: string
