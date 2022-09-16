@@ -1,4 +1,4 @@
-# 第8回 MicroProfile Healthの機能と利用
+# 第10回 MicroProfile Healthの機能と利用
 
 ## contents 
 |章|MainClass|
