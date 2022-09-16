@@ -6,12 +6,11 @@
 | 特定クラスに対するスキーマ指定の利用法 |[/META-INF/microprofile-config.properties](src/main/resources/META-INF/microprofile-config.properties)|
 | @OpenAPIDefinitionによる共通項目の定義 |[PersonApplication](src/main/java/io/extact/mp/sample/openapi3/PersonApplication.java)|
 | OASModelrAPIを使ったプログラムによるOAS情報の定義 |[LocalDateApiModelReader](src/main/java/io/extact/mp/sample/openapi3/reader/LocalDateApiModelReader.java)|
-| OpenAPIドキュメントによる共通項目の定義 |[/META-INF/openapi.yaml](src/main/resources/META-INF/#openapi.yaml)|
+| OpenAPIドキュメントによる共通項目の定義 |[/META-INF/openapi.yaml](src/main/resources/META-INF/_openapi.yaml)|
 | @SchemaPropertyの導入 |[Person](src/main/java/io/extact/mp/sample/openapi3/resource/Person.java)|
 
 LocalDateに対するスキーマ情報の定義はいずれもコメントアウトで無効化しています。
-動作を確認する場合はコメントアウトを解除してください。
-
+動作を確認する場合はコメントアウトを解除してください。なお、`openapi.yaml`はファイル名を`_openapi.yaml`として無効化してるので有効化する際はリネームしてください。
 
 ## ビルドと実行
 サンプルアプリのビルドにはJava17以上とMavenが必要です
