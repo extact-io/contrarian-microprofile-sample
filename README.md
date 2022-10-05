@@ -13,6 +13,7 @@
 |[第8回 Microprofile Config 3.0へのキャッチアップ](https://developer.mamezou-tech.com/msa/mp/cntrn08-mp-config3/)|[こちら](05-config_3.0/)|
 |[第9回 MicroProfile OpenAPI 3.0の新機能と既存機能の比較](https://developer.mamezou-tech.com/msa/mp/cntrn09-mp-openapi3/)|[こちら](06-openapi_3.0)|
 |[第10回 MicroProfile Healthの機能と利用](https://developer.mamezou-tech.com/msa/mp/cntrn10-mp-health/)|[こちら](04-health)|
+|[第11回 第11回 MicroProfile RestClient 3.0の確認と小技機能の紹介](https://developer.mamezou-tech.com/msa/mp/cntrn11-mp-restclient3/)|[こちら](07-restclient_3.0/)|
 |[(番外編) SLF4J＋LogbackへのLogger切り替え](https://developer.mamezou-tech.com/msa/mp/ext01-helidon-logback/)|[こちら](ex-helidon-logback/)|
 |[(番外編) Helidon MP Testing with JUnit5を使ってみる](https://developer.mamezou-tech.com/msa/mp/ext02-helidon-testing/)|[こちら](ex-helidon-testing/)|
 |[(番外編) MicroProfile RestClientを使ったRESTリースのJUnitテスト](https://developer.mamezou-tech.com/msa/mp/ext03-helidon-rest-testing/)|[こちら](ex-helidon-rest-testing/)|
