@@ -1,0 +1,4 @@
+server.port: 7001
+io.extact.mp.sample.ft.client.service.HelloFautlToleranceService/hello_config_override/Retry/enabled: false
+io.extact.mp.sample.ft.client.service.HelloFautlToleranceService/hello_config_override/Retry/maxRetries: 3
+
