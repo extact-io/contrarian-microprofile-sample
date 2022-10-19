@@ -1,7 +1,7 @@
 # MicroProfile Fault Tolerance
-> 第12回 MicroProfile Fault Tolerance(1) - 例で理解する基本機能編
-> 第13回 MicroProfile Fault Tolerance(2) - 例で理解する非同期編
-> 第14回 MicroProfile Fault Tolerance(3) - 例で理解する設定編
+> 第12回 MicroProfile Fault Tolerance(1) - 例で理解する基本機能編  
+> 第13回 MicroProfile Fault Tolerance(2) - 例で理解する非同期編  
+> 第14回 MicroProfile Fault Tolerance(3) - 例で理解する設定編  
 
 ## contents 
 |記事|本文中に登場コード|
