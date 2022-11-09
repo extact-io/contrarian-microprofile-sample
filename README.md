@@ -17,7 +17,7 @@
 |[第12回 MicroProfile Fault Tolerance(1) - 例で理解する基本機能編](https://developer.mamezou-tech.com/msa/mp/cntrn12-mp-faulttolerance1/)|[こちら](08-fault_tolerance/)|
 |[第13回 MicroProfile Fault Tolerance(2) - 例で理解する非同期編](https://developer.mamezou-tech.com/msa/mp/cntrn13-mp-faulttolerance2/)|[こちら](08-fault_tolerance/)|
 |[第14回 MicroProfile Fault Tolerance(3) - 例で理解する設定編](https://developer.mamezou-tech.com/msa/mp/cntrn14-mp-faulttolerance3/)|[こちら](08-fault_tolerance/)|
-|[第15回 MicroProfile Metricsの機能と利用](https://developer.mamezou-tech.com/msa/mp/cntrn15-mp-metrics/)|[こちら]
+|[第15回 MicroProfile Metricsの機能と利用](https://developer.mamezou-tech.com/msa/mp/cntrn15-mp-metrics/)|[こちら](09-metrics/)|
 |[(番外編) SLF4J＋LogbackへのLogger切り替え](https://developer.mamezou-tech.com/msa/mp/ext01-helidon-logback/)|[こちら](ex-helidon-logback/)|
 |[(番外編) Helidon MP Testing with JUnit5を使ってみる](https://developer.mamezou-tech.com/msa/mp/ext02-helidon-testing/)|[こちら](ex-helidon-testing/)|
 |[(番外編) MicroProfile RestClientを使ったRESTリースのJUnitテスト](https://developer.mamezou-tech.com/msa/mp/ext03-helidon-rest-testing/)|[こちら](ex-helidon-rest-testing/)|
