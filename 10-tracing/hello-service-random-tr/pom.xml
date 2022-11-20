@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>io.extact</groupId>
+		<artifactId>opentracing-sample</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>hello-service-random-tr</artifactId>
+	<packaging>jar</packaging>
+	<name>hello-service-random-tr</name>
+	<properties>
+		<mainClass>io.extact.mp.sample.opentracing.RandomHelloServiceApplicationMain</mainClass>
+	</properties>
+	<dependencies>
+		<dependency>
+			<!-- JakartaEE JTA Spec -->
+			<groupId>jakarta.transaction</groupId>
+			<artifactId>jakarta.transaction-api</artifactId>
+		</dependency>
+		<dependency>
+			<!-- JakartaEE JPA Spec -->
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
+		</dependency>
+		<dependency>
+			<!-- H2(DBMS) -->
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.opentelemetry.instrumentation</groupId>
+			<artifactId>opentelemetry-jdbc</artifactId>
+			<version>1.19.2-alpha</version>
+		</dependency>
+		<dependency>
+			<!-- CDI extension for JTA -->
+			<groupId>io.helidon.integrations.cdi</groupId>
+			<artifactId>helidon-integrations-cdi-jta-weld</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<!-- CDI extension for HikariCP -->
+			<groupId>io.helidon.integrations.cdi</groupId>
+			<artifactId>helidon-integrations-cdi-datasource-hikaricp</artifactId>
+		</dependency>
+		<dependency>
+			<!-- Helidon MP JPA -->
+			<groupId>io.helidon.integrations.cdi</groupId>
+			<artifactId>helidon-integrations-cdi-jpa</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<!-- Helidon MP JPA for EclipseLink -->
+			<groupId>io.helidon.integrations.cdi</groupId>
+			<artifactId>helidon-integrations-cdi-eclipselink</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<!-- EclipseLink(JPA implementation) -->
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.jpa</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+</project>

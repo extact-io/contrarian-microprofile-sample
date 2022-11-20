@@ -1,0 +1,9 @@
+server.port: 7005
+javax.sql.DataSource:
+  sampleDataSource:
+    #dataSourceClassName: org.h2.jdbcx.JdbcDataSource
+    dataSourceClassName: io.extact.mp.sample.opentracing.OpenTelemetryH2DataSource
+    dataSource:
+      url: jdbc:h2:mem:sample;INIT=RUNSCRIPT FROM 'classpath:init-sample.ddl'
+      user: sa
+      password:
