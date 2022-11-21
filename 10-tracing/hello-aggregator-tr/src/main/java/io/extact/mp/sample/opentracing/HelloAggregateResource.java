@@ -23,10 +23,10 @@ import org.slf4j.LoggerFactory;
 public class HelloAggregateResource {
     private static Logger LOG = LoggerFactory.getLogger(HelloAggregateResource.class);
     private static final List<String> HELLO_SERVICE_URLS = List.of(
-                "http://pmr216n.primo.mamezou.com:7002", // japanese hello service
-                "http://pmr216n.primo.mamezou.com:7003", // english hello service
-                "http://pmr216n.primo.mamezou.com:7004", // chinese hello service
-                "http://pmr216n.primo.mamezou.com:7005"  // random hello service
+                "http://localhost:7002", // japanese hello service
+                "http://localhost:7003", // english hello service
+                "http://localhost:7004", // chinese hello service
+                "http://localhost:7005"  // random hello service
             );
     private List<HelloRestClient> helloClients;
 
